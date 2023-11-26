@@ -1,6 +1,8 @@
 name: Continuous Integration
 
 on:
+    push:
+        branches: [ main ]
     pull_request: 
         branches: [ main ]
 
@@ -8,11 +10,25 @@ jobs:
     test_pull_request: 
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
-            - uses: actions/setup-node@v3 
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4 
               with: 
                 node-version: 20
 
             - run: npm ci
             - run: npm run test
+    
+    e2e_test:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with: 
+                node-version: 20
+            - name: Cypress.io
+              uses: cypress-io/github-action@v6.6.0
+            
+            - run: npm ci
+            - run: npx cypress run
             - run: npm run build
+
