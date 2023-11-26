@@ -25,7 +25,5 @@ jobs:
             - name: Cypress.io E2E Test
               uses: cypress-io/github-action@v6.6.0
             
-            - run: npm ci
-            - run: npx cypress run
             - run: npm run build
 
