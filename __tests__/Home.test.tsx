@@ -3,7 +3,7 @@ import Home from "../app/page"
 
 const {expect} = require("@jest/globals")
 
-it("Should Render Home Component and 'Learn' text in it", () => {
+it("Should Render Home Component and 'Learns' text in it", () => {
     // AAA Method of Unit Testing
     render(<Home/>) // Arrange ( Arrange or Call the Component u wanna test )
 
