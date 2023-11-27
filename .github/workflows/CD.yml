@@ -19,7 +19,7 @@ jobs:
             - name: Build, Tag and push image to DockerHub
               env: 
                 DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
-                IMAGE_NAME: Wise_Clone_Nextjs_RTL_Cypress
+                IMAGE_NAME: wise_clone_nextjs_rtl_cypress
               run: |
                 docker build -t $DOCKERHUB_USERNAME/$IMAGE_NAME .
                 docker push $DOCKERHUB_USERNAME/$IMAGE_NAME:latest
