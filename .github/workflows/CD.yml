@@ -20,7 +20,7 @@ jobs:
               env: 
                 DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
                 IMAGE_NAME: Wise_Clone_Nextjs_RTL_Cypress
-              run:
+              run: |
                 docker build -t $DOCKERHUB_USERNAME/$IMAGE_NAME .
                 docker push $DOCKERHUB_USERNAME/$IMAGE_NAME:latest
 
