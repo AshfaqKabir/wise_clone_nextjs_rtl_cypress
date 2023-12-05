@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function SecondFooter() {
   return (
-    <div className="grid lg:grid-cols-4">
+    <div className="grid lg:grid-cols-4 mb-[52px]">
       <div>
         <Link href="/">
           <Image src={Wise} alt="Wise Company Logo" className="mt-[10px]" />
