@@ -139,37 +139,37 @@ const firstFooter = [
   ],
 ];
 
-const secondFooter = [
-  [
-    {
-      name: "Legal",
-      link: "/",
-    },
-    {
-      name: "Complaints",
-      link: "/",
-    },
-  ],
-  [
-    {
-      name: "Privacy policy",
-      link: "/",
-    },
-    {
-      name: "Country site map",
-      link: "/",
-    },
-  ],
-  [
-    {
-      name: "Cookie Policy",
-      link: "/",
-    },
-    {
-      name: "Modern slavery statement",
-      link: "/",
-    },
-  ],
-];
+// const secondFooter = [
+//   [
+//     {
+//       name: "Legal",
+//       link: "/",
+//     },
+//     {
+//       name: "Complaints",
+//       link: "/",
+//     },
+//   ],
+//   [
+//     {
+//       name: "Privacy policy",
+//       link: "/",
+//     },
+//     {
+//       name: "Country site map",
+//       link: "/",
+//     },
+//   ],
+//   [
+//     {
+//       name: "Cookie Policy",
+//       link: "/",
+//     },
+//     {
+//       name: "Modern slavery statement",
+//       link: "/",
+//     },
+//   ],
+// ];
 
-export { firstFooter, secondFooter };
+export { firstFooter };
