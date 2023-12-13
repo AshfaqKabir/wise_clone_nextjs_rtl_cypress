@@ -17,8 +17,7 @@ export default function PrimaryButton({ big, link, text }: PrimaryButtonProps) {
     </Button>
   ) : (
     <Button
-      className="px-[16px] py-[3px] color-[#163300] bg-[#9fe870] lg:text-[15px] md:text-[15px] max-sm:text-[14px] font-semibold leading-[24px] 
-    border-[1px] rounded-[16px] border-[#9fe870] min-h-[24px] h-[auto] transition-colors ease-in-out duration-[0.15s] hover:bg-[#80E142] hover:border-[#80E142]"
+      className="px-[16px] py-[3px] color-[#163300] bg-[#9fe870] lg:text-[15px] md:text-[15px] max-sm:text-[14px] font-semibold leading-[24px] border-[1px] rounded-[16px] border-[#9fe870] min-h-[24px] h-[auto] transition-colors ease-in-out duration-[0.15s] hover:bg-[#80E142] hover:border-[#80E142]"
     >
       <Link href={link}>{text}</Link>
     </Button>
