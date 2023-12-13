@@ -1,11 +1,11 @@
 import PrimaryButton from "../../utils/buttons/PrimaryButton";
 import CountryList from "./CountryList";
 
-export default async function CountryListSection() {
-  const res = await fetch(
-    "https://3000-ashfaqkabir-wiseclonene-ompr42rkw2z.ws-us106.gitpod.io/api"
-  );
-  const countryData = await res.json();
+export default function CountryListSection() {
+  // const res = await fetch(
+  //   "https://3000-ashfaqkabir-wiseclonene-ompr42rkw2z.ws-us106.gitpod.io/api"
+  // );
+  // const countryData = await res.json();
 
   return (
     <section className="bg-[#ecefeb] lg:py-[96px] md:py-[72px] max-sm:py-[48px]">
@@ -20,12 +20,12 @@ export default async function CountryListSection() {
         {/* Country List */}
         <div className="mt-[56px]">
           <ul className="grid lg:grid-cols-5 md:grid-cols-3 xs:grid-cols-1">
-            {countryData &&
+            {/* {countryData &&
               countryData.map(({ imgSrc, link, name }, i: number) => {
                 return (
                   <CountryList key={i} src={imgSrc} link={link} name={name} />
                 );
-              })}
+              })} */}
           </ul>
         </div>
       </div>
