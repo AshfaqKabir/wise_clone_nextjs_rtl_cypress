@@ -1,10 +1,13 @@
 FROM node:20.9.0
 
-# Set the working durectory in the container
+# Set the working directory in the container
 WORKDIR /usr/app
 
 # Copy package.json and package-lock.json to the working directory
 COPY . .
+
+# Set environment variable
+ENV NEXT_PUBLIC_COUNTRY_API_URL=$NEXT_PUBLIC_COUNTRY_API_URL
 
 # Install dependencies
 RUN npm install
