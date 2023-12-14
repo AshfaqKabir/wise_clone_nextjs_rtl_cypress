@@ -25,5 +25,8 @@ jobs:
             - name: Cypress.io E2E Test
               uses: cypress-io/github-action@v6.6.0
             
-            - run: npm run build
+            - name: Build Our Project
+              env: 
+                NEXT_PUBLIC_COUNTRY_API_URL: ${{ secrets.NEXT_PUBLIC_COUNTRY_API_URL }}
+              run: npm run build
 
