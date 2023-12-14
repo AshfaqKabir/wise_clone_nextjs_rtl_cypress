@@ -2,9 +2,7 @@ import PrimaryButton from "../../utils/buttons/PrimaryButton";
 import CountryList from "./CountryList";
 
 export default async function CountryListSection() {
-  const res = await fetch(
-    `https://wise-clone-nextjs-rtl-cypress.vercel.app/api`
-  );
+  const res = await fetch(`${process.env.NEXT_PUBLIC_COUNTRY_API_URL}/api`);
   const countryData = await res.json();
 
   return (
