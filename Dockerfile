@@ -7,8 +7,7 @@ WORKDIR /usr/app
 COPY . .
 
 # Set environment variable
-ARG NEXT_PUBLIC_COUNTRY_API_URL
-ENV NEXT_PUBLIC_COUNTRY_API_URL=$NEXT_PUBLIC_COUNTRY_API_URL
+
 
 # Install dependencies
 RUN npm install
