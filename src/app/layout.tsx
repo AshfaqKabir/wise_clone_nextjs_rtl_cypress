@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
+
+import { inter, worldWiseSans, wiseSans } from "../fonts";
 
 // app/layout.tsx
 import { Providers } from "./providers";
@@ -15,8 +16,6 @@ import {
   Button,
 } from "@nextui-org/react";
 import Footer from "../components/Footer/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Wise Clone",
@@ -66,6 +65,8 @@ export default function RootLayout({
             </NavbarItem>
           </NavbarContent>
         </Navbar>
+        {/* <h1 className={`${wiseSans.className} text-5xl`}>Hello!!!!</h1>
+        <h1 className={`${worldWiseSans.className} text-5xl`}>Hello!!!!</h1> */}
         <Providers>{children}</Providers>
         <Footer />
         <SpeedInsights />
