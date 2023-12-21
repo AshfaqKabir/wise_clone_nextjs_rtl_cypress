@@ -15,7 +15,7 @@ export default function ProtectionSection() {
             />
           </div>
           <p className="text-[#454745] lg:text-[16px] max-md:text-[14px] max-md:text-[14px] lg:leading-[24px] max-md:leading-[22px] lg:tracking-[0.08px] max-md:tracking-[0.14px] font-semibold">
-            We're regulated by the National Bank of Belgium
+            {"We're regulated by the National Bank of Belgium"}
           </p>
         </div>
         <div className="flex items-center p-[12px] max-sm:p-[0px]">
