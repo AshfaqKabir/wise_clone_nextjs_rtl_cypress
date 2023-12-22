@@ -14,7 +14,7 @@ export default function ProtectionSection() {
               className="max-sm:w-[24px] max-sm:h-[24px]"
             />
           </div>
-          <p className="text-[#454745] lg:text-[16px] max-md:text-[14px] max-md:text-[14px] lg:leading-[24px] max-md:leading-[22px] lg:tracking-[0.08px] max-md:tracking-[0.14px] font-semibold">
+          <p className="text-[#454745] lg:text-[16px] max-sm:text-[14px] lg:leading-[24px] max-md:leading-[22px] lg:tracking-[0.08px] max-md:tracking-[0.14px] font-semibold">
             {"We're regulated by the National Bank of Belgium"}
           </p>
         </div>
@@ -22,7 +22,7 @@ export default function ProtectionSection() {
           <div className="flex justify-center items-center mr-[16px] rounded-[100px] bg-[#ECEFEB] p-[12px]">
             <RiKeyLine size={32} className="max-sm:w-[24px] max-sm:h-[24px]" />
           </div>
-          <p className="text-[#454745] lg:text-[16px] max-md:text-[14px] max-md:text-[14px] lg:leading-[24px] max-md:leading-[22px] lg:tracking-[0.08px] max-md:tracking-[0.14px] font-semibold">
+          <p className="text-[#454745] lg:text-[16px] max-sm:text-[14px] lg:leading-[24px] max-md:leading-[22px] lg:tracking-[0.08px] max-md:tracking-[0.14px] font-semibold">
             We protect your details through{" "}
             <span className="font-bold underline underline-offset-4">
               {" "}
