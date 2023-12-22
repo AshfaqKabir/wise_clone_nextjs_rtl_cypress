@@ -1,7 +1,8 @@
 import HeroSection from "../components/HeroSection/HeroSection";
 import ProtectionSection from "../components/ProtectionSection/ProtectionSection";
-import CountryListSection from "../components/CountryList/CountryListSection";
 import OurMission from "../components/OurMission/OurMission";
+import SecuritySeciton from "../components/SecuritySection/SecuritySection";
+import CountryListSection from "../components/CountryList/CountryListSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <HeroSection />
         <ProtectionSection />
         <OurMission />
+        <SecuritySeciton />
         <CountryListSection />
       </div>
     </main>
