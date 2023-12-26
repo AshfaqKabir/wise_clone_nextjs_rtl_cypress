@@ -5,7 +5,6 @@ import SecuritySectionList from "./SecuritySectionList";
 
 import { CiLock } from "react-icons/ci";
 import { AiOutlineBank } from "react-icons/ai";
-import { MdOutlinePhonelinkLock } from "react-icons/md";
 import { RiPhoneLockLine } from "react-icons/ri";
 
 export default function SecuritySeciton() {
