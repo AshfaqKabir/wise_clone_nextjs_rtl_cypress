@@ -1,4 +1,5 @@
 import HeroSection from "../components/HeroSection/HeroSection";
+import RateCalculatorSection from "../components/RateCalculatorSection/RateCalculatorSection";
 import ProtectionSection from "../components/ProtectionSection/ProtectionSection";
 import OurMission from "../components/OurMission/OurMission";
 import SecuritySeciton from "../components/SecuritySection/SecuritySection";
@@ -9,6 +10,7 @@ export default function Home() {
     <main>
       <div>
         <HeroSection />
+        <RateCalculatorSection />
         <ProtectionSection />
         <OurMission />
         <SecuritySeciton />
