@@ -6,7 +6,7 @@ import RateList from "./RateList";
 
 export default function RateCalculator() {
   return (
-    <div className="w-[445px] h-[575px]">
+    <div className="w-[445px] h-[575px] max-sm:w-[350px] max-sm:mt-[40px]">
       <div
         className={`bg-[url('https://wise.com/static-assets/app/_next/static/media/tapestry-3.ceefa502.svg')] w-[100%] h-[100%] bg-cover bg-center bg-no-repeat rounded-[32px] `}
       >
@@ -19,19 +19,6 @@ export default function RateCalculator() {
           <CustomInput label={"You send exactly"} />
           {/* Fees and Rate */}
           <ul className="my-[24px]">
-            {/* <li className="flex items-center text-[16px] leading-[26px] tracking-[-0.01px]">
-              <span className="flex justify-center items-center my-[4px] pb-[2px] w-[16px] h-[16px] bg-[#ECEFEB] text-[14px] text-[#0e0f0c] rounded-[999%] font-bold">
-                <span className="">-</span>
-              </span>
-              <div className="pl-[12px] flex justify-between items-center w-[100%]">
-                <span className="pr-[12px] text-[#0E0F0C] font-semibold">
-                  4.49 GBP
-                </span>
-                <div className=" text-[#454745] text-right">
-                  <FeesRate />
-                </div>
-              </div>
-            </li> */}
             <RateList sign={"-"} amount={"4.49 GBP"} component={<FeesRate />} />
             <RateList
               sign={"="}

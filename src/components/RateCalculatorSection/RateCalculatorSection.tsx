@@ -2,8 +2,8 @@ import RateCalculator from "../RateCalculator/RateCalculator";
 
 export default function RateCalculatorSection() {
   return (
-    <section className="py-[154px] bg-[#9FE870]">
-      <div className="lg:max-w-[1100px] md:max-w-[752px] max-sm:max-w-[335px] py-[154px] max-sm:py-[96px] mx-auto flex justify-between items-center">
+    <section className="py-[154px] max-sm:py-[96px] bg-[#9FE870]">
+      <div className="lg:max-w-[1100px] md:max-w-[752px] max-sm:max-w-[350px] mx-auto lg:flex md:flex max-sm:flex-col justify-between items-center">
         <div>
           <h2 className="mb-[24px] text-[#163300] lg:text-[44px] md:text-[37px] max-sm:text-[34px] lg:leading-[57px] md:leading-[41px] max-sm:leading-[41px] lg:tracking-[-1.3px] md:tracking-[-1.11px] max-sm:tracking-[-1px] font-semibold">
             Make your money move, fast
